@@ -1,0 +1,64 @@
+body {
+    background-image: url('lake.jpg');
+    background-size: auto 100%;
+    /*background-color: slategrey;*/
+}
+
+form {border: 0px solid slategrey;}
+
+input[type="text"], input[type="password"] {
+    width: 40%;
+    padding: 5px 2px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid slategrey;
+}
+
+button {
+    background-color: slategrey;
+    color: white;
+    padding: 8px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+}
+
+.login {
+    color: black;
+
+}
+
+.signup {
+    color:black;
+}
+
+.popup {
+    color:black;
+    background-color:rgb(255,255,255);
+    background-color:rgba(255,255,255,0.5);
+    width: 50%;
+    margin: 10px auto 10px auto;
+    padding: 15px 10px 10px 10px;
+    text-align: center;
+    display: none;
+    z-index: 1;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    border: 1px solid slategrey;
+}
+
+
+
+button:hover {
+    opacity:0.8;
+}
+
+.cancelbutton {
+    width:auto;
+    padding: 10px 18px;
+    background-color: slategrey;
+    color: white;
+}
+
